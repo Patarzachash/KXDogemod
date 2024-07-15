@@ -9,7 +9,7 @@ foreign_politics = {
 		cost = 0
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 100
 		}
 		complete_effect = {
 			transfer_state = 564
@@ -37,7 +37,7 @@ foreign_politics = {
 		cost = 0
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 100
 		}
 		complete_effect = {
 			declare_war_on = {
@@ -58,7 +58,7 @@ foreign_politics = {
 		cost = 0
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 100
 		}
 		complete_effect = {
 		add_state_core = 1298
@@ -106,7 +106,7 @@ foreign_politics = {
 		cost = 0
 		fire_only_once = yes
 		ai_will_do = {
-			factor = 0
+			factor = 100
 		}
 		complete_effect = {
 		add_state_core = 211
