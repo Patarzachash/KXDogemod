@@ -1,0 +1,19 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_Genocides"
+		textureFile = "gfx/interface/resistance_icon_old.dds"
+		noOfFrames = 1
+	}
+	spriteType = { 
+		name = "GFX_Repop"
+		textureFile = "gfx/interface/population_icon.dds"
+		noOfFrames = 1
+	}
+	spriteType = { 
+		name = "GFX_Repop_buttons"
+		textureFile = "gfx/interface/customgui/Buttons_2.dds"
+		noOfFrames = 8
+	}
+	
+}

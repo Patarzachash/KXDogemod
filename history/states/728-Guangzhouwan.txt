@@ -1,0 +1,28 @@
+state = {
+	id = 728
+	name = "STATE_728"
+	manpower = 209000
+
+	state_category = zero
+
+	history = {
+		owner = MAF
+		add_core_of = MAF
+		add_core_of = NSW
+		add_claim_by = NSW
+		add_claim_by = NSW
+		buildings = {
+			infrastructure = 2
+			11981 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			11981 1
+		}
+	}
+
+	provinces = {
+		11981
+	}
+}

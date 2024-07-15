@@ -1,0 +1,18 @@
+state = {
+	id = 1040
+	name = "STATE_1040"
+	history = {
+		owner = NSW
+		add_core_of = NSW
+		add_claim_by = NSW
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		13530
+	}
+	manpower = 2300
+	impassable = yes
+	state_category = wasteland
+}

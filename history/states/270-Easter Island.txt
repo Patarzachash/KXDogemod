@@ -1,0 +1,21 @@
+state = {
+	id = 270
+	name = "STATE_270"
+	manpower = 392
+	state_category = zero_island
+
+	history = {
+		owner = NSW
+		add_core_of = NSW
+
+		buildings = {
+			infrastructure = 1
+			1280 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces = {
+		1280
+	}
+}

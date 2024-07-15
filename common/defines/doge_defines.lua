@@ -1,0 +1,54 @@
+--Diplomacy
+NDefines.NDiplomacy.PEACE_SCORE_PER_PASS = 100.0 --was 0.2 (x500)
+NDefines.NDiplomacy.MP_NUM_WINNERS_FOR_PEACE_PAUSE = 4
+NDefines.NDiplomacy.MP_NUM_LOSERS_FOR_PEACE_PAUSE = 0
+
+NDefines.NCountry.ATTACHE_XP_SHARE = 0.30
+
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 72.0
+
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 30
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 40
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 1
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 1
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 1
+NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 1000
+NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 1000
+NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000
+NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2
+NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 100
+NDefines.NMilitary.TRAINING_ATTRITION = 0.02
+NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0 
+
+NDefines.NProduction.BASE_LICENSE_IC_COST = 0						-- Base IC cost for lended license
+NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0
+
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 0
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 50
+NDefines.NProduction.MIN_LICENSE_ACTIVE_DAYS = 0
+
+NDefines.NRailwayGun.RAILWAY_GUN_RANGE = 60
+NDefines.NRailwayGun.ATTACK_TO_FORTS_MODIFIER_FACTOR = 2
+NDefines.NRailwayGun.ANNEX_RATIO = 1
+NDefines.NRailwayGun.BASE_CAPTURE_CHANCE = 1
+NDefines.NRailwayGun.ATTACK_TO_BOMBARDMENT_MODIFIER_FACTOR = 0.6
+NDefines.NRailwayGun.ATTACK_TO_ENTRENCHMENT_MODIFIER_FACTOR = 0.8
+NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35
+
+NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0, 0.5, 0.2, 0.05,0.0 } -- vanilla is 2/0.5/0.2/0.1/0
+
+--- should fix airscore desync
+NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0               
+NDefines.NCountry.ARMY_SCORE_MULTIPLIER = 0                
+NDefines.NCountry.NAVY_SCORE_MULTIPLIER = 0                
+NDefines.NCountry.AIR_SCORE_MULTIPLIER = 0             
+NDefines.NCountry.INDUSTRY_SCORE_MULTIPLIER = 0          
+NDefines.NCountry.PROVINCE_SCORE_MULTIPLIER = 0             
+NDefines.NMilitary.WAR_SCORE_AIR_WORTH = 0          
+NDefines.NMilitary.WAR_SCORE_AIR_WORTH_CAP = 0			
+NDefines.NMilitary.WAR_SCORE_AIR_MONTHLY_FALLOFF = 0		
+NDefines.NMilitary.WAR_SCORE_LOSSES_RATIO = 0				
+NDefines.NMilitary.WAR_SCORE_LOSSES_MULT_IF_CAPITULATED = 0
+
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 60

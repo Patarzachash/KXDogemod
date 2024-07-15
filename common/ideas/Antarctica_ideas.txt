@@ -1,0 +1,55 @@
+ideas = {
+	country = {
+		ANT_expidition_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			allowed = { always = no }
+			picture = ANT_expidition_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_expedition_tt
+				justify_war_goal_time = 1
+				send_volunteers_tension = 1
+				generate_wargoal_tension = 1
+				production_speed_buildings_factor = -1
+				training_time_factor = 1
+			}
+		}
+		
+		ANT_alone_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea XXA_alone_idea"}
+			allowed = { always = no }
+			picture = ANT_alone_idea
+			modifier = {
+				custom_modifier_tooltip = ANT_alone_tt
+				conscription = -1
+				training_time_factor = 10.00
+				consumer_goods_factor = 1
+				political_power_cost = 3
+				industrial_capacity_factory = -1
+				industrial_capacity_dockyard = -1
+				conscription_factor = -1
+				resistance_damage_to_garrison = -1
+				production_factory_start_efficiency_factor = -1
+				drift_defence_factor = 1
+				join_faction_tension = 1.00
+				send_volunteers_tension = 1
+				ai_get_ally_desire_factor = -100
+				ai_badass_factor = 0.01
+				guarantee_tension = 1.0
+			}
+		}
+	}
+	hidden_ideas = {
+
+		do_stuff_idea = {
+			picture = MLT_Malta_Influence
+			allowed = { always = no }
+			modifier = {
+				justify_war_goal_time = 1
+				send_volunteers_tension = 1
+				generate_wargoal_tension = 1
+				production_speed_buildings_factor = -1
+				training_time_factor = 1
+			}
+		}
+	}
+}

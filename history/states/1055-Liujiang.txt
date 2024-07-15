@@ -1,0 +1,24 @@
+state = {
+	id = 1055
+	name = "STATE_1055"
+	manpower = 1470000
+	state_category = two
+	resources = {
+		chromium = 6
+		steel = 2
+		tungsten = 8
+	}
+	history = {
+		owner = NSW
+		add_claim_by = NSW
+		add_core_of = NSW
+		add_claim_by = NSW
+		add_claim_by = NSW
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1597 4134 7095 10039 10431 12436
+	}
+}

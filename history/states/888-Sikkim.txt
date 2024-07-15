@@ -1,0 +1,26 @@
+state = {
+	id = 888
+	name = "STATE_888"
+	manpower = 112950
+
+	state_category = one
+
+	history = {
+		owner = NSW
+		add_core_of = NSW
+		add_claim_by = NSW
+		add_core_of = NSW
+		add_core_of = NSW
+		victory_points = {
+			4435 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		4435
+	}
+}

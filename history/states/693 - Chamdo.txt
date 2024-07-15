@@ -1,0 +1,29 @@
+state={
+	id = 693
+	name = "STATE_693"
+	manpower = 201326
+	state_category = one
+
+	local_supplies = 1.0 
+	resources = {
+		oil = 1
+	}
+
+	history = {
+		owner = NSW
+		add_core_of = NSW
+		add_claim_by = NSW
+		add_claim_by = NSW
+		add_claim_by = NSW
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			5102 2
+		}
+	}
+
+	provinces = {
+		4407 5102 10856
+	}
+}

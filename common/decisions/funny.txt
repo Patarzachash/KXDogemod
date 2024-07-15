@@ -1,0 +1,207 @@
+foreign_politics = {
+	#RUSSIA TAKE TRANSAMUR
+	RUS_Take_Control_Over_Transamur_Kolchakbros_ITSOVER = {
+		icon = hol_draw_up_staff_plans	
+		allowed = { tag = RUS }
+		available = {
+			date > 1938.1.1
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			transfer_state = 564
+			transfer_state = 563
+			transfer_state = 565
+			transfer_state = 574
+			transfer_state = 657
+			transfer_state = 560
+			transfer_state = 561
+			transfer_state = 409
+			transfer_state = 1246
+			transfer_state = 408
+			transfer_state = 537
+			transfer_state = 562
+			transfer_state = 637
+		}
+	}
+	#TURKEY WAR
+	EGY_TURKIYETURKIYETURKIYE_ENVERBROSITSOVER = {
+		icon = hol_draw_up_staff_plans	
+		allowed = { tag = EGY }
+		available = {
+			date > 1938.1.1
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			declare_war_on = {
+			target = TUR
+			type = annex_everything
+			}
+		}
+	}
+	TUR_YOINK_THE_CAUCASUS = {
+		icon = hol_draw_up_staff_plans	
+		allowed = { tag = TUR }
+		available = {
+			OR = {
+				is_in_faction_with = GER
+				is_faction_leader = yes
+			}
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+		add_state_core = 1298
+		add_state_core = 1299
+		add_state_core = 998
+		add_state_core = 1303
+		add_state_core = 1302
+		add_state_core = 1300
+		add_state_core = 1082
+		add_state_core = 1301
+		add_state_core = 231
+		add_state_core = 1188
+		add_state_core = 1080
+		add_state_core = 1190
+		add_state_core = 1081
+		add_state_core = 229
+		add_state_core = 990
+		add_state_core = 1304
+		add_state_core = 1267
+		add_state_core = 232
+		add_state_core = 787
+		add_state_core = 233
+		add_state_core = 1186
+		add_state_core = 1189
+		add_state_core = 1187
+		add_state_core = 656
+		add_state_core = 1191
+		add_state_core = 413
+		add_state_core = 421
+		add_state_core = 417
+		add_state_core = 419
+		add_state_core = 347
+	}
+	}
+	TUR_YOINK_THE_BALKANS = {
+		icon = hol_draw_up_staff_plans	
+		allowed = { tag = TUR }
+		available = {
+			OR = { 
+				is_in_faction_with = RUS 
+				is_in_faction_with = CAN
+				is_faction_leader = yes
+			}
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+		add_state_core = 211
+		add_state_core = 771
+		add_state_core = 77
+		add_state_core = 772
+		add_state_core = 212
+		add_state_core = 48
+		add_state_core = 1090
+		add_state_core = 841
+		add_state_core = 769
+		add_state_core = 106
+		add_state_core = 731
+		add_state_core = 1271
+		add_state_core = 989
+		add_state_core = 1076
+		add_state_core = 768
+		add_state_core = 185
+		add_state_core = 758
+		add_state_core = 47
+		add_state_core = 186
+		add_state_core = 939
+		add_state_core = 182
+		add_state_core = 766
+		add_state_core = 44
+		add_state_core = 1268
+		add_state_core = 46
+		add_state_core = 81
+		add_state_core = 765
+		add_state_core = 767
+		add_state_core = 108
+		add_state_core = 1269
+		add_state_core = 107
+		add_state_core = 1097
+		add_state_core = 105
+		add_state_core = 1270
+		add_state_core = 1098
+		add_state_core = 1145
+		add_state_core = 104
+		add_state_core = 1141
+		add_state_core = 1128
+		add_state_core = 770
+		add_state_core = 1142
+		add_state_core = 1143
+	}
+	}
+	TUR_JOIN_REICHSPAKT_THEY_NEED_IT = {
+		icon = hol_draw_up_staff_plans	
+		allowed = { tag = TUR }
+		available = {
+			date > 1938.6.1
+			is_in_faction = no
+			has_war = no
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			GER = { add_to_faction = TUR }
+		}
+	}
+	TUR_JOIN_RUSSIA_THEY_NEED_IT = {
+		icon = hol_draw_up_staff_plans	
+		allowed = { tag = TUR }
+		available = {
+			date > 1938.6.1
+			is_in_faction = no
+			has_war = no
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			RUS = { add_to_faction = TUR }
+		}
+	}
+	TUR_JOIN_ENTENTE_THEY_NEED_IT = {
+		icon = hol_draw_up_staff_plans	
+		allowed = { tag = TUR }
+		available = {
+			date > 1938.6.1
+			is_in_faction = no
+			has_war = no
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			CAN = { add_to_faction = TUR }
+		}
+	}
+}

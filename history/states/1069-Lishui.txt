@@ -1,0 +1,18 @@
+state = {
+	id = 1069
+	name = "STATE_1069"
+	manpower = 3602000
+	state_category = two
+	history = {
+		owner = NSW
+		add_core_of = NSW
+		add_claim_by = NSW
+		add_claim_by = NSW
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1055 4099 7086 9972 11947
+	}
+}

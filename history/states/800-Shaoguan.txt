@@ -1,0 +1,28 @@
+state = {
+	id = 800
+	name = "STATE_800"
+	manpower = 5570000
+	state_category = two
+	resources = {
+		tungsten = 10
+		steel = 2
+	}
+
+	history = {
+		owner = NSW
+		add_core_of = NSW
+		add_claim_by = NSW
+		add_core_of = NSW
+		add_claim_by = NSW
+		add_claim_by = NSW
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = { 1120 2 }
+	}
+	provinces = {
+		1120 9970 9997 10080 10121 12014
+	}
+}
