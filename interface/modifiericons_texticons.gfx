@@ -96,6 +96,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_factory_output_texticon"
+		texturefile = "gfx/texticons/factory_output_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
 		name = "GFX_civ_factory"
 		texturefile = "gfx/texticons/civ_factory.dds"
 		legacy_lazy_load = no
@@ -2908,6 +2914,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_organisation_paratroop_texticon"
+		texturefile = "gfx/texticons/organisation_paratroop_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
 		name = "GFX_defence_bomber_texticon"
 		texturefile = "gfx/texticons/defence_bomber_texticon.dds"
 		legacy_lazy_load = no
@@ -3462,6 +3474,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_world_tension_wargoal_texticon"
 		texturefile = "gfx/texticons/world_tension_wargoal_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_world_tension_embargo_texticon"
+		texturefile = "gfx/texticons/world_tension_embargo_texticon.dds"
 		legacy_lazy_load = no
 	}
 	
@@ -4060,6 +4078,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ai_divisions_texticon"
+		texturefile = "gfx/texticons/ai_divisions_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
 		name = "GFX_ai_call_ally_texticon"
 		texturefile = "gfx/texticons/ai_call_ally_texticon.dds"
 		legacy_lazy_load = no
@@ -4131,4 +4155,531 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = "GFX_attack_camelry_texticon"
+		texturefile = "gfx/texticons/attack_camelry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_camelry_texticon"
+		texturefile = "gfx/texticons/defence_camelry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_camelry_texticon"
+		texturefile = "gfx/texticons/speed_camelry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_armored_car_texticon"
+		texturefile = "gfx/texticons/attack_armored_car_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_armored_car_texticon"
+		texturefile = "gfx/texticons/defence_armored_car_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_armored_car_texticon"
+		texturefile = "gfx/texticons/speed_armored_car_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_armored_car_texticon"
+		texturefile = "gfx/texticons/organisation_armored_car_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_armored_car_recon_texticon"
+		texturefile = "gfx/texticons/attack_armored_car_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_armored_car_recon_texticon"
+		texturefile = "gfx/texticons/defence_armored_car_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_armored_car_recon_texticon"
+		texturefile = "gfx/texticons/speed_armored_car_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_armored_car_recon_texticon"
+		texturefile = "gfx/texticons/organisation_armored_car_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_armored_recon_texticon"
+		texturefile = "gfx/texticons/attack_armored_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_armored_recon_texticon"
+		texturefile = "gfx/texticons/defence_armored_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_armored_recon_texticon"
+		texturefile = "gfx/texticons/speed_armored_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_armored_recon_texticon"
+		texturefile = "gfx/texticons/organisation_armored_recon_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_mountaineers_texticon"
+		texturefile = "gfx/texticons/attack_mountaineers_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_mountaineers_texticon"
+		texturefile = "gfx/texticons/defence_mountaineers_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_mountaineers_texticon"
+		texturefile = "gfx/texticons/speed_mountaineers_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_mountaineers_texticon"
+		texturefile = "gfx/texticons/organisation_mountaineers_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_irregular_texticon"
+		texturefile = "gfx/texticons/attack_irregular_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_irregular_texticon"
+		texturefile = "gfx/texticons/defence_irregular_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_irregular_texticon"
+		texturefile = "gfx/texticons/speed_irregular_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_irregular_texticon"
+		texturefile = "gfx/texticons/organisation_irregular_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_militia_texticon"
+		texturefile = "gfx/texticons/attack_militia_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_militia_texticon"
+		texturefile = "gfx/texticons/defence_militia_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_militia_texticon"
+		texturefile = "gfx/texticons/speed_militia_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_militia_texticon"
+		texturefile = "gfx/texticons/organisation_militia_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_max_militia_texticon"
+		texturefile = "gfx/texticons/organisation_max_militia_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_ccnn_texticon"
+		texturefile = "gfx/texticons/attack_ccnn_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_ccnn_texticon"
+		texturefile = "gfx/texticons/defence_ccnn_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_ccnn_texticon"
+		texturefile = "gfx/texticons/speed_ccnn_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_ccnn_texticon"
+		texturefile = "gfx/texticons/organisation_ccnn_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_mp_texticon"
+		texturefile = "gfx/texticons/attack_mp_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_mp_texticon"
+		texturefile = "gfx/texticons/defence_mp_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_mp_texticon"
+		texturefile = "gfx/texticons/speed_mp_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_mp_texticon"
+		texturefile = "gfx/texticons/organisation_mp_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_embargo_cost_texticon"
+		texturefile = "gfx/texticons/embargo_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_balance_of_power_texticon"
+		texturefile = "gfx/texticons/balance_of_power_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_medal_texticon"
+		texturefile = "gfx/texticons/medal_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_officer_texticon"
+		texturefile = "gfx/texticons/officer_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_long_range_patrol_texticon"
+		texturefile = "gfx/texticons/attack_long_range_patrol_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_long_range_patrol_texticon"
+		texturefile = "gfx/texticons/defence_long_range_patrol_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_specops_texticon"
+		texturefile = "gfx/texticons/organisation_specops_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_tank_cost_texticon"
+		texturefile = "gfx/texticons/mio_tank_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_naval_cost_texticon"
+		texturefile = "gfx/texticons/mio_naval_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_air_cost_texticon"
+		texturefile = "gfx/texticons/mio_air_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_materiel_cost_texticon"
+		texturefile = "gfx/texticons/mio_materiel_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_enemy_attrition_texticon"
+		texturefile = "gfx/texticons/enemy_attrition_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_enemy_attrition_supply_truck_texticon"
+		texturefile = "gfx/texticons/enemy_attrition_supply_truck_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_enemy_speed_texticon"
+		texturefile = "gfx/texticons/enemy_speed_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_enemy_supply_texticon"
+		texturefile = "gfx/texticons/enemy_supply_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_marines_texticon"
+		texturefile = "gfx/texticons/attack_marines_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_marines_texticon"
+		texturefile = "gfx/texticons/defence_marines_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_marines_texticon"
+		texturefile = "gfx/texticons/speed_marines_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_marines_texticon"
+		texturefile = "gfx/texticons/organisation_marines_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_paratroop_contribution_texticon"
+		texturefile = "gfx/texticons/paratroop_contribution_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_marines_contribution_texticon"
+		texturefile = "gfx/texticons/marines_contribution_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mountaineers_contribution_texticon"
+		texturefile = "gfx/texticons/mountaineers_contribution_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ski_troops_texticon"
+		texturefile = "gfx/texticons/ski_troops_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_rangers_texticon"
+		texturefile = "gfx/texticons/rangers_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_research2_texticon"
+		texturefile = "gfx/texticons/research2_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_production_capacity_texticon"
+		texturefile = "gfx/texticons/mio_production_capacity_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_efficiency_cap_texticon"
+		texturefile = "gfx/texticons/mio_efficiency_cap_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_specops_cap_texticon"
+		texturefile = "gfx/texticons/specops_cap_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_efficiency_gain_texticon"
+		texturefile = "gfx/texticons/mio_efficiency_gain_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_production_cost_texticon"
+		texturefile = "gfx/texticons/mio_production_cost_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_conversion_speed_texticon"
+		texturefile = "gfx/texticons/mio_conversion_speed_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_funds_texticon"
+		texturefile = "gfx/texticons/funds_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_capacity_texticon"
+		texturefile = "gfx/texticons/mio_capacity_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_industrial_manufacturer_texticon"
+		texturefile = "gfx/texticons/industrial_manufacturer_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_design_team_texticon"
+		texturefile = "gfx/texticons/design_team_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_motorised_rocket_brigade_texticon"
+		texturefile = "gfx/texticons/motorised_rocket_brigade_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_mio_policy_texticon"
+		texturefile = "gfx/texticons/mio_policy_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_army_spirit_texticon"
+		texturefile = "gfx/texticons/army_spirit_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_air_spirit_texticon"
+		texturefile = "gfx/texticons/air_spirit_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_navy_spirit_texticon"
+		texturefile = "gfx/texticons/navy_spirit_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_irregular_cavalry_texticon"
+		texturefile = "gfx/texticons/attack_irregular_cavalry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_irregular_cavalry_texticon"
+		texturefile = "gfx/texticons/defence_irregular_cavalry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_irregular_cavalry_texticon"
+		texturefile = "gfx/texticons/speed_irregular_cavalry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_irregular_cavalry_texticon"
+		texturefile = "gfx/texticons/organisation_irregular_cavalry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_design_irregular_cavalry_texticon"
+		texturefile = "gfx/texticons/design_irregular_cavalry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_elite_infantry_texticon"
+		texturefile = "gfx/texticons/attack_elite_infantry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_elite_infantry_texticon"
+		texturefile = "gfx/texticons/defence_elite_infantry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_elite_infantry_texticon"
+		texturefile = "gfx/texticons/speed_elite_infantry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_organisation_elite_infantry_texticon"
+		texturefile = "gfx/texticons/organisation_elite_infantry_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_attack_bicycle_texticon"
+		texturefile = "gfx/texticons/attack_bicycle_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_defence_bicycle_texticon"
+		texturefile = "gfx/texticons/defence_bicycle_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_speed_bicycle_texticon"
+		texturefile = "gfx/texticons/speed_bicycle_texticon.dds"
+		legacy_lazy_load = no
+	}
 }

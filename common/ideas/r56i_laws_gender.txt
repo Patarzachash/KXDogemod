@@ -1,0 +1,96 @@
+ideas = {
+	r56i_laws_category_gender = {
+		use_list_view = yes
+		law = yes
+		r56i_laws_gender_traditional = {
+			available = { NOT = { 
+			                      has_global_flag = NATIONAL_CHARACTERS_BLOCKED 
+			                      has_socialist_government = yes
+								} 
+			            }
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				conscription_factor = -0.05	
+				female_random_operative_chance = -1
+			}
+			cost = 75
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					tag = GEA
+					tag = BAT
+				}
+			}
+		}
+		r56i_laws_gender_limited = {
+			available = { NOT = { has_global_flag = NATIONAL_CHARACTERS_BLOCKED } }
+			modifier = {
+				industrial_capacity_factory = -0.05
+				weekly_manpower = 50
+				conscription_factor = 0.05
+				female_random_operative_chance = 3
+				
+			}
+			cost = 75
+			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					has_elected_government = no
+				}
+			}
+		}
+		r56i_laws_gender_patriarchy = {
+			available = { 
+						NOT = { 
+			                    has_global_flag = NATIONAL_CHARACTERS_BLOCKED 
+								has_socialist_government = yes
+							  } 
+						}
+			modifier = {
+				industrial_capacity_factory = 0.075
+				production_factory_max_efficiency_factor = 0.05
+				conscription_factor = -0.1
+				female_random_operative_chance = -2
+				
+			}
+			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					has_dictatorship_government = no
+					tag = GEA
+					tag = BAT
+					is_chinese_tag = yes
+				}
+			}
+		}
+		r56i_laws_gender_equality = {
+			available = { 
+			              NOT = { 
+			                      has_global_flag = NATIONAL_CHARACTERS_BLOCKED 
+			                      has_authoritarian_government = yes
+			                      } 
+						}
+			modifier = {
+				industrial_capacity_factory = -0.1
+				conscription_factor = 0.15
+				weekly_manpower = 150
+				female_random_operative_chance = 5
+			}
+			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_socialist_government = no }
+				}
+			}
+		}
+	}
+}
