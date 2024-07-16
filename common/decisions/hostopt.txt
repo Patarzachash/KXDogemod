@@ -1,0 +1,557 @@
+hostopt = {
+	#middle afrika merging
+	Merge_Middle_Afrika = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		MAF = {
+			annex_country = {
+			target = COG
+			transfer_troops = yes } 
+		}  
+
+		MAF = {
+			annex_country = {
+			target = KEN
+			transfer_troops = yes } 
+		}
+
+		MAF = {
+			annex_country = {
+			target = KIK
+			transfer_troops = yes } 
+		}
+
+		MAF = {
+			annex_country = {
+			target = ZAM
+			transfer_troops = yes } 
+		}
+
+		MAF = {
+			annex_country = {
+			target = NGR
+			transfer_troops = yes } 
+		}
+
+		MAF = {
+			annex_country = {
+			target = CIV
+			transfer_troops = yes } 
+		}
+
+		MAF = {
+			annex_country = {
+			target = SOM
+			transfer_troops = yes } 
+		}
+		MAF = {
+			annex_country = {
+			target = ETH
+			transfer_troops = yes } 
+		}
+
+        MAF = {
+            annex_country = {
+                target = MAG
+                transfer_troops = yes
+            }
+        }
+
+		1183 = { set_demilitarized_zone = no }
+		878 = { set_demilitarized_zone = no }                                                                                                                              
+		925 = { set_demilitarized_zone = no }
+        MAF = {
+            every_owned_state = {
+                add_core_of = MAF
+            }
+        }
+	}
+  }
+    Annex_SAF_ZIMQ = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		ZIM = {
+			annex_country = {
+			target = SAF
+			transfer_troops = yes } 
+		}  
+        ZIM = {
+            every_owned_state = {
+                add_core_of = ZIM
+            }
+        }
+	}
+  }  
+    Annex_Central_Asia = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		ALO = {
+			annex_country = {
+			target = UZB
+			transfer_troops = yes } 
+		} 
+		ALO = {
+			annex_country = {
+				target = KYR
+				transfer_troops = yes
+			}
+		} 
+		ALO = {
+			annex_country = {
+				target = TRK
+				transfer_troops = yes
+			}
+		}
+        ALO = {
+            every_owned_state = {
+                add_core_of = ALO
+            }
+        }
+	}
+  }
+    Centralize_Kuban = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		DKB = {
+			annex_country = {
+				target = KUB
+				transfer_troops = yes
+			}
+		}
+		DKB = {
+			annex_country = {
+				target = MTR
+				transfer_troops = yes
+			}
+		}
+        DKB = {
+            every_owned_state = {
+                add_core_of = DKB
+            }
+        }
+	}
+  }
+    Centralize_China = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		QIE = {
+			annex_country = {
+				target = LEP
+				transfer_troops = yes
+			}
+		}
+        QIE = {
+            every_owned_state = {
+                add_core_of = QIE
+            }
+        }
+		QIE = {
+			annex_country = {
+				target = SQI
+				transfer_troops = yes
+			}
+		}
+		QIE = {
+			annex_country = {
+				target = SZC	
+				transfer_troops = yes
+			}
+		}
+		QIE = {
+			annex_country = {
+				target = YUN	
+				transfer_troops = yes
+			}
+		}
+		QIE = {
+			annex_country = {
+				target = XSM	
+				transfer_troops = yes
+			}
+		}
+		QIE = {
+			annex_country = {
+				target = SHX
+				transfer_troops = yes
+			}
+		}
+		QIE = {
+			annex_country = {
+				target = TIB	
+				transfer_troops = yes
+			}
+		}
+		QIE = {
+			annex_country = {
+				target = SIK	
+				transfer_troops = yes
+			}
+		}
+		QIE = {
+			annex_country = {
+				target = TAN	
+				transfer_troops = yes
+			}
+		}
+		353 = { set_demilitarized_zone = no}
+	}
+  }
+    Unite_South_America = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		URG = {
+			annex_country = {
+				target = ARG
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = FOP
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = BRA
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = BOL
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = CHL
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = PAR
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = PRU
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = ECU
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = COL
+				transfer_troops = yes
+			}
+		}
+		URG = {
+			annex_country = {
+				target = VEN
+				transfer_troops = yes
+			}
+		}
+        URG = {
+            every_owned_state = {
+                add_core_of = URG
+            }
+        }
+	}
+  }
+    Unification_Central_America = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		GUA = {
+			annex_country = {
+				target = HON
+				transfer_troops = yes
+			}
+		}
+		GUA = {
+			annex_country = {
+				target = ELS
+				transfer_troops = yes
+			}
+		}
+		GUA = {
+			annex_country = {
+				target = COS
+				transfer_troops = yes
+			}
+		}
+		GUA = {
+			annex_country = {
+				target = NIC
+				transfer_troops = yes
+			}
+		}
+        GUA = {
+            every_owned_state = {
+                add_core_of = GUA
+            }
+        }
+		1261 = { set_demilitarized_zone = no}
+		1071 = { set_demilitarized_zone = no}
+		1247 = { set_demilitarized_zone = no}
+	}
+  }
+    Invasion_of_Caribbean = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+
+		CAF = {
+			annex_country = {
+				target = DOM
+				transfer_troops = yes
+			}
+		}
+		CAF = {
+			annex_country = {
+				target = HAI
+				transfer_troops = yes
+			}
+		}
+		CAF = {
+			annex_country = {
+				target = CUB
+				transfer_troops = yes
+			}
+		}
+        CAF = {
+            every_owned_state = {
+                add_core_of = CAF
+            }
+        }
+	}
+  }             
+    Unify_Nords_SWE = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+			NOT = { has_global_flag = unified_nords }
+		}
+		complete_effect = {
+
+		SWE = {
+			annex_country = {
+				target = NOR
+				transfer_troops = yes
+			}
+		}
+		SWE = {
+			annex_country = {
+				target = FIN
+				transfer_troops = yes
+			}
+		}
+        SWE = {	
+            every_owned_state = {
+                add_core_of = SWE
+            }
+        }
+		set_global_flag = unified_nords
+	}
+  }
+    Unify_Nords_NOR = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+			NOT = { has_global_flag = unified_nords }
+		}		
+		complete_effect = {
+
+		NOR = {
+			annex_country = {
+				target = SWE
+				transfer_troops = yes
+			}
+		}
+		NOR = {
+			annex_country = {
+				target = FIN
+				transfer_troops = yes
+			}
+		}
+        NOR = {	
+            every_owned_state = {
+                add_core_of = NOR
+            }
+        }
+		set_global_flag = unified_nords		
+	}
+  }
+    Unify_Nords_FIN = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		allowed = { NOT = { has_global_flag = unified_nords } }
+		available = {
+			NOT = { has_global_flag = unified_nords }
+		}		
+		complete_effect = {
+
+		FIN = {
+			annex_country = {
+				target = NOR
+				transfer_troops = yes
+			}
+		}
+		FIN = {
+			annex_country = {
+				target = SWE
+				transfer_troops = yes
+			}
+		}
+        FIN = {	
+            every_owned_state = {
+                add_core_of = FIN
+            }
+        }
+		set_global_flag = unified_nords		
+	}
+  }
+    Unify_Arabia_SAU = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		allowed = { NOT = { has_global_flag = unified_nords } }
+		available = {
+			NOT = { has_global_flag = unified_arabia }
+		}		
+		complete_effect = {
+
+		SAU = {
+			annex_country = {
+				target = JBS
+				transfer_troops = yes
+			}
+		}
+		SAU = {
+			annex_country = {
+				target = OMA
+				transfer_troops = yes
+			}
+		}
+		SAU = {
+			annex_country = {
+				target = YEM
+				transfer_troops = yes
+			}
+		}
+        SAU = {	
+            every_owned_state = {
+                add_core_of = SAU
+            }
+        }
+		set_global_flag = unified_arabia		
+	}
+  }   
+    Unify_Arabia_JBS = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		allowed = { NOT = { has_global_flag = unified_nords } }
+		available = {
+			NOT = { has_global_flag = unified_arabia }
+		}		
+		complete_effect = {
+
+		JBS = {
+			annex_country = {
+				target = SAU
+				transfer_troops = yes
+			}
+		}
+		JBS = {
+			annex_country = {
+				target = OMA
+				transfer_troops = yes
+			}
+		}
+		JBS = {
+			annex_country = {
+				target = YEM
+				transfer_troops = yes
+			}
+		}
+        JBS = {	
+            every_owned_state = {
+                add_core_of = JBS
+            }
+        }
+		set_global_flag = unified_arabia		
+	}
+  }                                                                           
+}
