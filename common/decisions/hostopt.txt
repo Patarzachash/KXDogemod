@@ -7,6 +7,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
 		complete_effect = {
 
 		MAF = {
@@ -80,6 +83,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
 		complete_effect = {
 
 		ZIM = {
@@ -101,6 +107,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
 		complete_effect = {
 
 		ALO = {
@@ -134,6 +143,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
 		complete_effect = {
 
 		DKB = {
@@ -162,6 +174,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
 		complete_effect = {
 
 		QIE = {
@@ -233,6 +248,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
 		complete_effect = {
 
 		URG = {
@@ -311,6 +329,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
 		complete_effect = {
 
 		GUA = {
@@ -354,6 +375,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}
 		complete_effect = {
 
 		CAF = {
@@ -388,8 +412,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
-		available = {
+		visible = {
 			NOT = { has_global_flag = unified_nords }
+			NOT = { has_global_flag = closehost }
 		}
 		complete_effect = {
 
@@ -420,8 +445,9 @@ hostopt = {
 		ai_will_do = {
 			factor = 0
 		}
-		available = {
+		visible = {
 			NOT = { has_global_flag = unified_nords }
+			NOT = { has_global_flag = closehost }
 		}		
 		complete_effect = {
 
@@ -453,8 +479,9 @@ hostopt = {
 			factor = 0
 		}
 		allowed = { NOT = { has_global_flag = unified_nords } }
-		available = {
+		visible = {
 			NOT = { has_global_flag = unified_nords }
+			NOT = { has_global_flag = closehost }
 		}		
 		complete_effect = {
 
@@ -486,8 +513,9 @@ hostopt = {
 			factor = 0
 		}
 		allowed = { NOT = { has_global_flag = unified_nords } }
-		available = {
+		visible = {
 			NOT = { has_global_flag = unified_arabia }
+			NOT = { has_global_flag = closehost }			
 		}		
 		complete_effect = {
 
@@ -525,8 +553,9 @@ hostopt = {
 			factor = 0
 		}
 		allowed = { NOT = { has_global_flag = unified_nords } }
-		available = {
+		visible = {
 			NOT = { has_global_flag = unified_arabia }
+			NOT = { has_global_flag = closehost }
 		}		
 		complete_effect = {
 
@@ -562,7 +591,10 @@ hostopt = {
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
-		}	
+		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}					
 		complete_effect = {
 
 		NSW = {
@@ -735,5 +767,19 @@ hostopt = {
 		NSW = { add_ideas = ai_limiter }
 
 	}
-  }                                                                             
+  }
+    Close_Host_Decisions = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		visible = {
+			NOT = { has_global_flag = closehost }
+		}		
+		complete_effect = {
+		set_global_flag = closehost		
+	}
+  }                                                                               
 }

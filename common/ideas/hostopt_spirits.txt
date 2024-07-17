@@ -10,6 +10,7 @@ ideas = {
 				industrial_capacity_factory = -1.0
 				production_factory_max_efficiency_factor = -1.0
 				conscription = -1.0
+				enemy_justify_war_goal_time = 1
 			}
 		}
 		
