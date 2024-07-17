@@ -843,7 +843,7 @@ ideas = {
 			}
 		}
 
-		# SOV Ideas:
+		# UNUSED Red Russian Ideas:
 		national_ideas_5_0 = {
 			allowed = {
 				always = no
@@ -1478,7 +1478,7 @@ ideas = {
 			}
 		}
 
-		# PRC Ideas:
+		# NFA Ideas:
 		national_ideas_9_0 = {
 			allowed = {
 				always = no
@@ -1492,7 +1492,7 @@ ideas = {
 			}
 
 			modifier = {
-				communism_drift = 0.02
+				naval_invasion_capacity = 10
 				political_power_factor = 0.1
 			}
 		}
@@ -1633,7 +1633,7 @@ ideas = {
 			}
 		}
 
-		# CHI Ideas:
+		# QIE Ideas:
 		national_ideas_10_0 = {
 			allowed = {
 				always = no
@@ -1784,7 +1784,7 @@ ideas = {
 			}
 
 			modifier = {
-				communism_drift = -0.02
+				land_doctrine_cost_factor = -0.2
 			}
 		}
 		national_ideas_10_8 = {
@@ -1981,7 +1981,7 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 			targeted_modifier = {
-				tag = SOV
+				tag = RUS
 				defense_bonus_against = 0.1
 			}
 		}
@@ -2051,8 +2051,8 @@ ideas = {
 			}
 
 			modifier = {
-				fascism_acceptance = 25
-				communism_acceptance = 25
+				production_factory_efficiency_gain_factor = 0.2
+				production_lack_of_resource_penalty_factor = -0.3
 				improve_relations_maintain_cost_factor = -0.5
 			}
 		}
@@ -2126,7 +2126,7 @@ ideas = {
 			}
 		}
 
-		# GER Neutrality Ideas:
+		# GER Monarchist Ideas:
 		national_ideas_13_0 = {
 			allowed = {
 				always = no
@@ -2177,6 +2177,7 @@ ideas = {
 			modifier = {
 				max_dig_in_factor = 0.05
 				dig_in_speed_factor = 0.05
+				production_speed_buildings_factor = 0.15
 			}
 		}
 		national_ideas_13_3 = {
@@ -2212,6 +2213,7 @@ ideas = {
 
 			modifier = {
 				resistance_growth = -0.1
+				global_building_slots_factor = 0.2
 			}
 		}
 		national_ideas_13_5 = {
@@ -4408,7 +4410,7 @@ ideas = {
 				can_declare_war_without_wargoal_when_in_war = yes
 			}
 		}
-		# SOV Neutrality Ideas:
+		# RUS White Shirt Ideas:
 		national_ideas_27_0 = {
 			allowed = {
 				always = no
@@ -4422,7 +4424,7 @@ ideas = {
 			}
 
 			modifier = {
-				neutrality_drift = 0.02
+				
 				party_popularity_stability_factor = 0.2
 			}
 		}

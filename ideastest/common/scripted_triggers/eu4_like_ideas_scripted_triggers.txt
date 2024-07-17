@@ -2190,12 +2190,12 @@ calculate_right_national_ideas_id = {
 		if = {
 			limit = {
 				OR = { 
-				has_government = social_democrat
-				has_government = social_liberal
-				has_government = market_liberal
-				has_government = social_conservative
-				has_government = authoritarian_democrat
-				has_government = paternal_autocrat
+					has_government = social_democrat
+					has_government = social_liberal
+					has_government = market_liberal
+					has_government = social_conservative
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
 				}
 			}
 			set_temp_variable = { national_ideas_id_other_context = 13 }
@@ -2206,7 +2206,12 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = USA
+			OR = {
+				original_tag = USA
+				original_tag = CSA
+				original_tag = COR
+				original_tag = PSA
+			}
 		}
 		set_temp_variable = { national_ideas_id_other_context = 2 }
 	}
@@ -2218,17 +2223,32 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = ITA
+			OR = {
+				original_tag = ITA
+				original_tag = SRI
+				original_tag = SIC
+				original_tag = PAP
+				original_tag = SRD
+			}
+
 		}
 		set_temp_variable = { national_ideas_id_other_context = 4 }
 	}
 	else_if = {
 		limit = {
-			original_tag = SOV
+			original_tag = RUS
 		}
 		if = {
-			limit = {
-				has_government = neutrality
+			limit = { 
+				OR = {
+					has_government = social_democrat
+					has_government = social_liberal
+					has_government = market_liberal
+					has_government = social_conservative
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+					has_government = national_populist
+				}
 			}
 			set_temp_variable = { national_ideas_id_other_context = 27 }
 		}
@@ -2256,13 +2276,13 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = PRC
+			original_tag = NFA
 		}
 		set_temp_variable = { national_ideas_id_other_context = 9 }
 	}
 	else_if = {
 		limit = {
-			original_tag = CHI
+			original_tag = QIE
 		}
 		set_temp_variable = { national_ideas_id_other_context = 10 }
 	}
@@ -2315,13 +2335,13 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = TUR
+			original_tag = MON
 		}
 		set_temp_variable = { national_ideas_id_other_context = 19 }
 	}
 	else_if = {
 		limit = {
-			original_tag = POR
+			original_tag = EGY
 		}
 		set_temp_variable = { national_ideas_id_other_context = 22 }
 	}
@@ -2339,7 +2359,10 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = SAU
+			OR = {
+				original_tag = SAU
+				original_tag = JBS
+			}	
 		}
 		set_temp_variable = { national_ideas_id_other_context = 25 }
 	}
@@ -2351,7 +2374,7 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = SWI
+			original_tag = BAT
 		}
 		set_temp_variable = { national_ideas_id_other_context = 29 }
 	}
@@ -2363,7 +2386,7 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = HUN
+			original_tag = UKR
 		}
 		set_temp_variable = { national_ideas_id_other_context = 31 }
 	}
