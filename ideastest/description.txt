@@ -1,0 +1,96 @@
+[h1][b]Information[/b][/h1]
+This mod brings ideas and policies from [i]Europa Universalis IV[/i] to [i]Hearts of Iron IV[/i].
+
+[h1][b]Features[/b][/h1]
+This mod adds 27 idea groups with 7 ideas each as well as 64 policies that you can buy in exchange for Political Power.
+
+The idea groups are split into 3 categories:
+[list]
+[*] [b]Administrative:[/b] Administrative Ideas, Economic Ideas, Innovativeness Ideas, Communist Ideas, Democratic Ideas, Fascist Ideas, Monarchist Ideas, Minister Ideas, Internal Policy Ideas
+[*] [b]Diplomatic:[/b] Trade Ideas, Diplomatic Ideas, Intervention Ideas, Influence Ideas, Capital Ship Ideas, Submarine Ideas, Carrier Ideas, Espionage Ideas, Resistance Ideas
+[*] [b]Military:[/b] Leadership Ideas, Quality Ideas, Quantity Ideas, Offensive Ideas, Defensive Ideas, Air Combat Ideas, Tank Ideas, Bombing Ideas, Occupation Ideas
+[/list]
+
+Each idea group has at least 5 policies that require the idea group itself as well as another idea group to be fully unlocked.
+
+All countries have 8 idea group slots which are unlocked by date, one per year. A game rule allows to extend it from being able to take 8 idea groups up to 26, the additional ones are as well unlocked yearly. An idea group can be chosen for each slot allowing to unlock its ideas and thus gaining their specific bonuses.
+Furthermore, countries have 7 national ideas, 2 traditions and 1 ambition, which are unlocked by completing ideas. To unlock all national ideas and thus gaining the ambition, at least 21 ideas have to be unlocked.
+
+Currently there are 31 unique national idea sets included as well as a generic one.
+[i]If you are able to adopt a new national idea set (e.g. Imperial German Ideas), you can switch to them by using a decision.[/i]
+[list]
+[*] Generic Ideas
+[*] German Ideas
+[*] American Ideas
+[*] British Ideas
+[*] Italian Ideas
+[*] Soviet Ideas
+[*] Japanese Ideas
+[*] French Ideas
+[*] Canadian Ideas
+[*] Chinese People's Ideas (PRC)
+[*] Chinese Ideas (China)
+[*] Chinese Warlord Ideas
+[*] Polish Ideas
+[*] Imperial German Ideas (Non-Aligned)
+[*] Greek Ideas
+[*] Spanish Ideas
+[*] Imperial Chinese Ideas (Manchu & Qing (WW1) & Qing Empire formable)
+[*] Imperial Greek Ideas (Macedonian Empire formable)
+[*] Romanian Ideas
+[*] Turkish Ideas
+[*] Ottoman Ideas (Ottoman Empire formable)
+[*] Austro-Hungarian Ideas (Austria-Hungary formable)
+[*] Portuguese Ideas
+[*] Swedish Ideas
+[*] Dutch Ideas
+[*] Saudi Arabian Ideas
+[*] Spanish Revolutionary Ideas (Communist or Anarchist)
+[*] Imperial Russian Ideas (Non-Aligned)
+[*] Belgian Ideas
+[*] Swiss Ideas
+[*] Iranian Ideas
+[*] Hungarian Ideas
+[/list]
+
+This mod also adds the following formable nations:
+[list]
+[*] Macedonian Empire
+[*] Qing Empire
+[/list]
+
+[h1][b]Compatibility[/b][/h1]
+[list]
+[*] HOI4 Version: [b]1.14.*[/b]
+[*] should be compatible with any DLC (no DLCs are required to play the mod, but some ideas may give DLC locked modifiers)
+[*] should be compatible with most mods
+[list]
+[*] however there can be problems with mods that remove vanilla content, such as equipment types, ideologies, etc., or that set replace path for the folders this mod uses
+[/list]
+[/list]
+
+[h1][b]Localisations[/b][/h1]
+[list]
+[*] English localisation included
+[*] German localisation included
+[*] French localisation included ([u]English[/u] language)
+[*] Spanish localisation included ([u]English[/u] language)
+[*] Russian localisation included ([u]English[/u] language)
+[*] Polish localisation included ([u]English[/u] language)
+[*] Portuguese localisation included ([u]English[/u] language)
+[/list]
+Most of the ideas don't have descriptions yet, but those will be added in later updates.
+
+A Japanese translation can be found [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2729017463]here[/url].
+
+[h1][b]Credits[/b][/h1]
+A few graphics and sounds were taken from [i]Europa Universalis IV[/i].
+Thanks to [i]LordVarangian[/i] for helping me with some ideas, idea groups and policies.
+Thanks to [i]Silver Knight of Anor Londo[/i] for the ideas' descriptions.
+Thanks to [i]Maxwell[/i] & [i]Ismail[/i] for the national ideas' descriptions.
+Thanks to [i]Abbus[/i] for some of the idea group icons.
+
+[h1]Other[/h1]
+[b]If you find any bugs or have any suggestions, please let us know in the comments.[/b]
+
+Also, feel free to join us on our [url=https://discord.gg/HQgG25z]Discord[/url].
