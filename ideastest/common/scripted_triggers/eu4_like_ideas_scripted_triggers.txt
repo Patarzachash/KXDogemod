@@ -2189,7 +2189,7 @@ calculate_right_national_ideas_id = {
 		}
 		if = {
 			limit = {
-				OR = { 
+				NOR = { 
 					has_government = social_democrat
 					has_government = social_liberal
 					has_government = market_liberal
@@ -2353,7 +2353,7 @@ calculate_right_national_ideas_id = {
 	}
 	else_if = {
 		limit = {
-			original_tag = HOL
+			original_tag = NOR
 		}
 		set_temp_variable = { national_ideas_id_other_context = 24 }
 	}

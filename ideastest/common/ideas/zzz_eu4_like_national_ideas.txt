@@ -1492,8 +1492,10 @@ ideas = {
 			}
 
 			modifier = {
-				naval_invasion_capacity = 10
-				political_power_factor = 0.1
+				marines_special_forces_contribution_factor = -0.25
+				marine = {
+					soft_attack = 0.1
+				}
 			}
 		}
 		national_ideas_9_1 = {
@@ -1510,7 +1512,8 @@ ideas = {
 			}
 
 			modifier = {
-				dig_in_speed_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
+				supply_consumption_factor = -0.1
 			}
 		}
 		national_ideas_9_2 = {
@@ -1527,8 +1530,22 @@ ideas = {
 			}
 
 			modifier = {
-				army_org_factor = 0.05
+				research_speed_factor = 0.05
 			}
+
+			on_add = {
+				add_research_slot = 1
+				set_country_flag = national_ideas_9_2
+			}
+
+			on_remove = {
+				if = {
+					limit = {
+						has_country_flag = national_ideas_9_2
+					}
+					add_research_slot = -1
+					clr_country_flag = national_ideas_9_2
+				}
 		}
 		national_ideas_9_3 = {
 			allowed = {
@@ -1544,7 +1561,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_defence_factor = 0.1
+				compliance_growth = 0.1
+				resistance_growth = -0.1
 			}
 		}
 		national_ideas_9_4 = {
@@ -1561,7 +1579,8 @@ ideas = {
 			}
 
 			modifier = {
-				war_support_factor = 0.1
+				naval_coordination = 0.1
+				naval_speed_factor = 0.05
 			}
 		}
 		national_ideas_9_5 = {
@@ -1578,7 +1597,10 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = 0.1
+				experience_gain_army = 0.02
+				experience_gain_navy = 0.02
+				experience_gain_air = 0.02
+				max_planning = 0.15
 			}
 		}
 		national_ideas_9_6 = {
@@ -1595,7 +1617,8 @@ ideas = {
 			}
 
 			modifier = {
-				recon_factor = 0.1
+				amphibious_invasion = 0.2
+				invasion_preparation = -0.2
 			}
 		}
 		national_ideas_9_7 = {
@@ -1612,7 +1635,8 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = -0.1
+				stability_factor = 0.05
+				political_power_factor = 0.1
 			}
 		}
 		national_ideas_9_8 = {
@@ -1629,7 +1653,8 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.15
 			}
 		}
 
@@ -3102,7 +3127,7 @@ ideas = {
 				fuel_gain_factor = 0.2
 			}
 		}
-		# TUR Ideas:
+		# Turkish nottomans Ideas:
 		national_ideas_19_0 = {
 			allowed = {
 				always = no
@@ -3270,7 +3295,7 @@ ideas = {
 				industry_free_repair_factor = 0.2
 			}
 		}
-		# Ottoman Ideas:
+		# Ottoman TUR Ideas:
 		national_ideas_20_0 = {
 			allowed = {
 				always = no
@@ -3433,7 +3458,7 @@ ideas = {
 				army_org_factor = 0.1
 			}
 		}
-		# Austro-Hungarian Ideas:
+		# Austro-Hungarian AUS Ideas:
 		national_ideas_21_0 = {
 			allowed = {
 				always = no
@@ -3937,7 +3962,7 @@ ideas = {
 				}
 			}
 		}
-		# HOL Ideas:
+		# NOR Ideas:
 		national_ideas_24_0 = {
 			allowed = {
 				always = no
@@ -4110,7 +4135,7 @@ ideas = {
 			}
 
 			modifier = {
-				neutrality_drift = 0.02
+				stability_factor = 0.05
 				war_support_factor = 0.05
 			}
 		}
@@ -4164,7 +4189,7 @@ ideas = {
 
 			modifier = {
 				generate_wargoal_tension = -0.2
-				justify_war_goal_time = -0.1
+				justify_war_goal_time = -0.4
 			}
 		}
 		national_ideas_25_4 = {
@@ -4424,7 +4449,7 @@ ideas = {
 			}
 
 			modifier = {
-				
+				global_building_slots_factor = 0.25
 				party_popularity_stability_factor = 0.2
 			}
 		}
@@ -4477,8 +4502,8 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_dockyard = 0.1
-				ship_hull_heavy_design_cost_factor = -0.5
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
 			}
 		}
 		national_ideas_27_4 = {
@@ -4549,7 +4574,7 @@ ideas = {
 
 			modifier = {
 				production_speed_industrial_complex_factor = 0.1
-				political_advisor_cost_factor = -0.15
+				training_time_army_factor = -0.3
 			}
 		}
 		national_ideas_27_8 = {
