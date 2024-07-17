@@ -300,6 +300,8 @@ hostopt = {
                 add_core_of = URG
             }
         }
+		URG = { add_ideas = ai_limiter }
+
 	}
   }
     Unification_Central_America = {
@@ -553,5 +555,185 @@ hostopt = {
         }
 		set_global_flag = unified_arabia		
 	}
-  }                                                                           
+  }
+    Annex_Asia = {
+		icon = hol_draw_up_staff_plans	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}	
+		complete_effect = {
+
+		NSW = {
+			annex_country = {
+				target = AST
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = GEA
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = DEI
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = PHI
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = SIA
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = BRM
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = BHC
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = MAD
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = DEH
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = AFG
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = FNG
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = JAP
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = MON
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = PRF
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = LEP
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = YUN
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = SZC
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = QIE
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = SQI
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = SHX
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = XSM
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = TIB
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = SIK
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = TAN
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = NEP
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = SKM
+				transfer_troops = yes
+			}
+		}
+		NSW = {
+			annex_country = {
+				target = BHU
+				transfer_troops = yes
+			}
+		}
+        NSW = {
+            every_owned_state = {
+                add_core_of = NSW
+            }
+        }						
+		NSW = { add_ideas = ai_limiter }
+
+	}
+  }                                                                             
 }

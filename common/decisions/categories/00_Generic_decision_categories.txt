@@ -6,6 +6,14 @@ annexation_decisions = {
 	allowed = { always = no } #manually activated
 }
 
+hostopt = {
+	icon = generic_political_actions
+
+	visible = {
+		has_country_flag = ccshtool_enabled_cflag 1
+	}
+}
+
 propaganda_efforts = {
 	icon = generic_propaganda
 }
