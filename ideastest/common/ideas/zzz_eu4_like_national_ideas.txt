@@ -369,7 +369,7 @@ ideas = {
 
 			modifier = {
 				fuel_gain_factor = 0.1
-				democratic_drift = 0.02
+				experience_gain_army_unit 0.5
 			}
 		}
 		national_ideas_2_1 = {
@@ -386,7 +386,7 @@ ideas = {
 			}
 
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.15
 			}
 		}
 		national_ideas_2_2 = {
@@ -462,7 +462,7 @@ ideas = {
 			}
 
 			modifier = {
-				naval_speed_factor = 0.05
+				naval_speed_factor = 0.1
 			}
 		}
 		national_ideas_2_6 = {
@@ -479,7 +479,7 @@ ideas = {
 			}
 
 			modifier = {
-				amphibious_invasion = 0.15
+				amphibious_invasion = 0.20
 			}
 		}
 		national_ideas_2_7 = {
@@ -496,7 +496,7 @@ ideas = {
 			}
 
 			modifier = {
-				special_forces_cap = 0.1
+				special_forces_cap = 0.15
 			}
 		}
 		national_ideas_2_8 = {
@@ -512,8 +512,8 @@ ideas = {
 				check_variable = { completed_national_ideas > 6 }
 			}
 
-			rule = {
-				can_only_justify_war_on_threat_country = no
+			modifier = {
+				army_attack_factor = 0.1
 			}
 		}
 
@@ -532,7 +532,7 @@ ideas = {
 
 			modifier = {
 				convoy_escort_efficiency = 0.1
-				navy_submarine_detection_factor = 0.05
+				navy_submarine_detection_factor = 0.1
 			}
 		}
 		national_ideas_3_1 = {
@@ -549,7 +549,7 @@ ideas = {
 			}
 
 			modifier = {
-				experience_gain_navy = 0.1
+				experience_gain_navy = 0.15
 			}
 		}
 		national_ideas_3_2 = {
@@ -566,7 +566,7 @@ ideas = {
 			}
 
 			modifier = {
-				research_speed_factor = 0.05
+				research_speed_factor = 0.1
 			}
 		}
 		national_ideas_3_3 = {
@@ -583,7 +583,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_factory_efficiency_gain_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.1
 			}
 		}
 		national_ideas_3_4 = {
@@ -600,7 +600,7 @@ ideas = {
 			}
 
 			modifier = {
-				enemy_army_bonus_air_superiority_factor = -0.1
+				enemy_army_bonus_air_superiority_factor = -0.15
 			}
 		}
 		national_ideas_3_5 = {
@@ -635,7 +635,7 @@ ideas = {
 			}
 
 			modifier = {
-				invasion_preparation = -0.1
+				invasion_preparation = -0.2
 			}
 		}
 		national_ideas_3_7 = {
@@ -652,7 +652,7 @@ ideas = {
 			}
 
 			modifier = {
-				intel_from_operatives_factor = 0.2
+				intel_from_operatives_factor = 0.5
 			}
 		}
 		national_ideas_3_8 = {
@@ -668,8 +668,12 @@ ideas = {
 				check_variable = { completed_national_ideas > 6 }
 			}
 
-			rule = {
-				can_declare_war_on_same_ideology = yes
+			modifier = {
+				air_agility_factor = 0.1
+			}
+			small_plane_airframe = {
+				build_cost_ic = -0.05
+				instant = yes
 			}
 		}
 
@@ -706,7 +710,7 @@ ideas = {
 
 			modifier = {
 				drift_defence_factor = 0.25
-				fascism_drift = 0.02
+				monthly_population = 1.5
 			}
 		}
 		national_ideas_4_2 = {
@@ -723,7 +727,7 @@ ideas = {
 			}
 
 			modifier = {
-				air_accidents_factor = -0.15
+				air_accidents_factor = -0.25
 				air_wing_xp_loss_when_killed_factor = -0.1
 			}
 		}
@@ -776,7 +780,7 @@ ideas = {
 			}
 
 			modifier = {
-				invasion_preparation = -0.1
+				invasion_preparation = -0.2
 			}
 		}
 		national_ideas_4_6 = {
@@ -793,7 +797,7 @@ ideas = {
 			}
 
 			modifier = {
-				army_morale_factor = 0.05
+				army_morale_factor = 0.1
 			}
 		}
 		national_ideas_4_7 = {
@@ -1192,7 +1196,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_bunker_factor = 0.2
+				production_speed_industrial_complex_factor = 0.2
 			}
 		}
 		national_ideas_7_2 = {
@@ -1261,7 +1265,7 @@ ideas = {
 			}
 
 			modifier = {
-				acclimatization_hot_climate_gain_factor = 0.1
+				max_planning = 0.2
 			}
 		}
 		national_ideas_7_6 = {
@@ -1313,7 +1317,7 @@ ideas = {
 			}
 
 			modifier = {
-				enemy_operative_detection_chance_factor = 0.25
+				land_night_attack = 0.3
 			}
 		}
 
@@ -1331,8 +1335,8 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteers_tension = -0.05
-				send_volunteer_divisions_required = -0.1
+				send_volunteers_tension = -0.3
+				send_volunteer_divisions_required = -0.3
 			}
 		}
 		national_ideas_8_1 = {
@@ -1349,7 +1353,7 @@ ideas = {
 			}
 
 			modifier = {
-				winter_attrition_factor = -0.1
+				winter_attrition_factor = -0.3
 			}
 		}
 		national_ideas_8_2 = {
@@ -1366,7 +1370,7 @@ ideas = {
 			}
 
 			modifier = {
-				out_of_supply_factor = -0.1
+				naval_invasion_capacity = 30
 			}
 		}
 		national_ideas_8_3 = {
@@ -1387,7 +1391,7 @@ ideas = {
 			}
 
 			modifier = {
-				air_ace_generation_chance_factor = 0.05
+				air_ace_generation_chance_factor = 0.1
 			}
 		}
 		national_ideas_8_4 = {
@@ -1404,7 +1408,7 @@ ideas = {
 			}
 
 			modifier = {
-				naval_coordination = 0.1
+				naval_coordination = 0.25
 				navy_max_range_factor = 0.05
 			}
 		}
@@ -1422,7 +1426,7 @@ ideas = {
 			}
 
 			modifier = {
-				air_night_penalty = -0.15
+				air_night_penalty = -0.25
 			}
 		}
 		national_ideas_8_6 = {
@@ -1439,8 +1443,8 @@ ideas = {
 			}
 
 			modifier = {
-				max_dig_in_factor = 0.1
-				dig_in_speed_factor = 0.1
+				max_dig_in_factor = 0.25
+				dig_in_speed_factor = 0.25
 			}
 		}
 		national_ideas_8_7 = {
@@ -1457,7 +1461,7 @@ ideas = {
 			}
 
 			modifier = {
-				amphibious_invasion = 0.15
+				amphibious_invasion = 0.30
 			}
 		}
 		national_ideas_8_8 = {
@@ -1474,7 +1478,7 @@ ideas = {
 			}
 
 			modifier = {
-				autonomy_gain = 2
+				air_superiority_bonus_in_combat = 0.5
 			}
 		}
 
@@ -2165,8 +2169,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
 			}
 		}
 		national_ideas_13_1 = {
@@ -2183,7 +2187,8 @@ ideas = {
 			}
 
 			modifier = {
-				generate_wargoal_tension = -0.2
+				generate_wargoal_tension = -0.4
+				justify_war_goal_time = 0.2
 			}
 		}
 		national_ideas_13_2 = {
@@ -2219,7 +2224,7 @@ ideas = {
 			}
 
 			modifier = {
-				naval_coordination = 0.05
+				naval_coordination = 0.1
 				navy_capital_ship_attack_factor = 0.1
 			}
 		}
@@ -2290,8 +2295,8 @@ ideas = {
 			}
 
 			modifier = {
-				war_support_factor = 0.05
-				industry_free_repair_factor = 0.1
+				war_support_factor = 0.1
+				industry_free_repair_factor = 0.25
 			}
 		}
 		national_ideas_13_8 = {
@@ -2308,7 +2313,7 @@ ideas = {
 			}
 
 			modifier = {
-				army_org_factor = 0.1
+				army_org_factor = 0.15
 			}
 		}
 
@@ -2361,7 +2366,7 @@ ideas = {
 			}
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.1
 				industrial_capacity_factory = 0.05
 			}
 		}
@@ -2816,7 +2821,7 @@ ideas = {
 			}
 
 			modifier = {
-				idea_cost_modifier = -0.1
+				idea_cost_modifier = -0.2
 				drift_defence_factor = 0.33
 			}
 		}
@@ -2834,7 +2839,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = 0.15
+				political_power_factor = 0.25
 			}
 		}
 		national_ideas_17_2 = {
@@ -2851,7 +2856,7 @@ ideas = {
 			}
 
 			modifier = {
-				army_org_factor = 0.05
+				army_org_factor = 0.15
 			}
 		}
 		national_ideas_17_3 = {
@@ -2868,7 +2873,7 @@ ideas = {
 			}
 
 			modifier = {
-				stability_factor = 0.1
+				stability_factor = 0.3
 			}
 		}
 		national_ideas_17_4 = {
@@ -2885,8 +2890,8 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = -0.1
-				resistance_growth = -0.1
+				justify_war_goal_time = -0.5
+				resistance_growth = -0.15
 			}
 		}
 		national_ideas_17_5 = {
@@ -2903,8 +2908,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_speed_factor = 0.1
-				attrition = -0.05
+				army_speed_factor = 0.2
+				attrition = -0.15
 			}
 		}
 		national_ideas_17_6 = {
@@ -2921,8 +2926,8 @@ ideas = {
 			}
 
 			modifier = {
-				experience_loss_factor = -0.1
-				army_attack_factor = 0.05
+				experience_loss_factor = -0.25
+				army_attack_factor = 0.15
 			}
 		}
 		national_ideas_17_7 = {
@@ -2939,7 +2944,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = 0.15
+				production_speed_buildings_factor = 0.2
 			}
 		}
 		national_ideas_17_8 = {
@@ -2956,7 +2961,7 @@ ideas = {
 			}
 
 			modifier = {
-				research_speed_factor = 0.1
+				research_speed_factor = 0.3
 			}
 		}
 		# ROM Ideas:
@@ -3329,7 +3334,7 @@ ideas = {
 
 			modifier = {
 				political_power_factor = 0.15
-				legitimacy_daily = 0.1
+				legitimacy_daily = 0.3
 			}
 		}
 		national_ideas_20_2 = {
@@ -3403,7 +3408,7 @@ ideas = {
 			}
 
 			modifier = {
-				non_core_manpower = 0.05
+				non_core_manpower = 0.1
 			}
 		}
 		national_ideas_20_6 = {
@@ -3420,8 +3425,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_speed_factor = 0.05
-				army_artillery_attack_factor = 0.05
+				army_speed_factor = 0.1
+				army_artillery_attack_factor = 0.1
 			}
 		}
 		national_ideas_20_7 = {
@@ -3438,7 +3443,7 @@ ideas = {
 			}
 
 			modifier = {
-				justify_war_goal_time = -0.2
+				justify_war_goal_time = -0.3
 			}
 		}
 		national_ideas_20_8 = {
@@ -3455,7 +3460,7 @@ ideas = {
 			}
 
 			modifier = {
-				army_org_factor = 0.1
+				army_org_factor = 0.2
 			}
 		}
 		# Austro-Hungarian AUS Ideas:
